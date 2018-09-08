@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-navbar  class="headBg">
+        <ion-title class="headTitle">Basket</ion-title>
+        <img src="assets/imgs/login.png" float-right padding-right  (click)="openPage('LoginPage')">
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content class="basketPagebg">
+      <ion-grid no-padding class="basketPage">
+          <ion-row class="row1bg">
+            <ion-col col-3>
+                <ion-thumbnail item-start>
+                    <img src="assets/imgs/pizza1.jpg" class="thumbimg">
+                  </ion-thumbnail>
+            </ion-col>
+            <ion-col col-9 text-right class="col-right">
+                  <ion-label>Total</ion-label>
+                  <h3>Rs. 1,134</h3>
+              </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-list class="paymentType">
+          <ion-list-header class="payHead">How would you like to pay?</ion-list-header>
+            <ion-item>
+                <ion-radio checked="true" value="go" item-left></ion-radio>
+                <ion-label class="radLbl">Cards / Netbanking <img src="assets/imgs/cards.png" class="pay_cardsImg"></ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-radio checked="true" value="go" item-left></ion-radio>
+                <ion-label class="radLbl">Cards / Netbanking <img src="assets/imgs/cards.png" class="pay_cardsImg"></ion-label>             
+            </ion-item>
+            <ion-item>
+                <ion-radio checked="true" value="go" item-left></ion-radio>
+                <ion-label class="radLbl">Cards / Netbanking <img src="assets/imgs/cards.png" class="pay_cardsImg"></ion-label>               
+            </ion-item>
+          </ion-list>
+  </ion-content>
+  <ion-footer>
+      <button ion-button full no-margin class="add_basket_btn" icon-end>Go To Online Payment</button>
+      <!-- (click)="openPage('Basket3Page')" -->
+    </ion-footer>

@@ -1,0 +1,51 @@
+page-login {
+	.headBg .toolbar-background
+	{
+		background: #ce0b10;
+	}
+	.headTitle .toolbar-title
+	{
+		color:#fff;
+	}	
+	.loginBtn
+	{
+		width: 80%;
+	    border-radius: 0;
+	    padding: 30px 0;
+	    text-transform: capitalize;
+	    font-size: 18px;
+	    font-weight: 400;
+	    background: #f3cc2c;
+	}
+	.forgotPwd{
+		color: #f3cc2c;
+	    text-transform: inherit;
+	    font-weight: 500;
+	    margin-top:15px;
+	}
+	.logincontrols ion-input
+	{
+		color: #f3cc2c;
+	}
+	.logincontrols ion-input .text-input
+	{
+	padding:0;	
+		margin: 16px 0;
+		width:100%;
+	}
+	.emInput .item-inner{
+		padding: 0;
+	}
+	/*remove foucus color of textbox*/
+	.item-md.item-input.input-has-focus .item-inner {
+		border-bottom-color:#f3cc2c !important;
+		box-shadow: none !important;
+	  }
+	  
+	  .list-md .item-input.input-has-focus:last-child {
+        border-bottom-color: #f3cc2c !important;
+        border-left-color: transparent !important;
+		box-shadow: none !important;
+	  }
+	
+}

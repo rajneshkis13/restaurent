@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar class="headBg">
+    <ion-title class="headTitle">Create Account</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="no-scroll">
+	<ion-list class="logincontrols">
+		<form [formGroup]="signupForm">
+					<!-- <ion-item [ngClass]="displayFieldCss('name')">
+								 <ion-label stacked style="color:#E3558D;"> Full Name</ion-label>
+								 <ion-input type="text" formControlName="name" name="Name"></ion-input>
+							 </ion-item> -->
+							
+		<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('name')">
+			<ion-input type="text" placeholder="Name" formControlName="name" name="Name"></ion-input>
+		</ion-item>
+		<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('email')"> 
+			<ion-input type="text" placeholder="Email" formControlName="email" name="email"></ion-input>
+		</ion-item>
+	  	<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('password')">
+    		<ion-input type="password" placeholder="Password" formControlName="password" name="password"></ion-input>
+			</ion-item>
+			<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('address')">
+				<ion-input type="text" placeholder="Address" formControlName="address" name="address"></ion-input>
+			</ion-item>
+			<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('mobile')">
+				<ion-input type="number" placeholder="Mobile" formControlName="mobile" name="mobile"></ion-input>
+			</ion-item>
+			<ion-item class="emInput" no-padding [ngClass]="displayFieldCss('postcode')">
+				<ion-input type="number" placeholder="Postcode" formControlName="postcode" name="postcode"></ion-input>
+			</ion-item>
+		</form>
+	</ion-list>
+	<p text-center no-margin><button ion-button class="loginBtn" (click)="next(signupForm)">Sign Up</button></p>
+</ion-content>

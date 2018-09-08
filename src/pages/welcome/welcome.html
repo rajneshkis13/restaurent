@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar class="headBg">
+  	<!-- <button ion-button class="backBtn"><ion-icon md="md-arrow-back"></ion-icon></button> --><ion-title class="headTitle">Log In or Register</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="pageBodybg">
+	<ion-grid no-padding>
+		<ion-row class="row1bg"> 
+			<ion-col col-12 class="welcome_col">
+				<h3 text-center>Welcome!</h3>
+				<p>Please login or register to continue withyour order.</p>
+			</ion-col>
+		</ion-row>
+		<ion-row padding>
+			<ion-col>
+				<p text-center no-margin><button ion-button class="loginBtn" (click)="openPage('LoginPage')">Log in</button></p>
+				<p text-center class="creAcc_text">You don't have an account? <br><button ion-button clear class="createAcc" (click)="openPage('SignupPage')">Create Account</button></p>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>

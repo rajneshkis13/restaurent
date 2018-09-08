@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar class="headBg">
+    <ion-title class="headTitle">Log In</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+	<ion-list class="logincontrols">
+		<ion-item class="emInput" no-padding>
+	    	<ion-input type="text" placeholder="Email" [(ngModel)]="email"></ion-input>
+	  	</ion-item>
+	  	<ion-item class="emInput" no-padding>
+    		<ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
+  		</ion-item>
+</ion-list>
+<p text-center no-margin><button ion-button class="loginBtn" (click)="login()">Log in</button></p>
+<p text-center no-margin><button ion-button clear class="forgotPwd"  (click)="openPage('ForgotpasswordPage')">Forgot your password?</button></p>
+</ion-content>

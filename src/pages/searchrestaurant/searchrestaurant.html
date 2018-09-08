@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar class="headBg">
+			<button ion-button menuToggle style="color:#fff;display:block !important"><ion-icon ios="ios-menu" md="md-menu"></ion-icon></button>
+    <ion-title class="headTitle">Search Restaurant</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="pageBodybg">
+	<ion-grid no-padding>
+		<ion-row class="row1bg"> 
+			<ion-col col-12 class="search_col">
+				<div class="searchLogo">
+		            <img src="assets/imgs/logo.png">
+		        </div>
+			</ion-col>
+		</ion-row>
+		<ion-row padding>
+			<ion-col>
+				<p text-center class="ent_postcode"> Enter your postcode and enjoy</p>
+				<ion-list class="postcode">
+					<ion-item>
+						 <ion-label floating>Postcode</ion-label>
+    					<ion-input type="text"></ion-input>
+					  </ion-item>
+					  
+  				</ion-list>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+	<div class="locationbtn" text-center><button ion-button clear class="locBtn"><ion-icon ios="ios-compass" md="md-compass" (click)="openPage('LoginPage')"></ion-icon> Use my current location</button></div>
+</ion-content>
+<ion-footer *ngIf="!keyboard.isOpen()">
+	<button ion-button full no-margin class="show_rest_btn" icon-end (click)="openPage('OrdernowPage')">Show Restaurants</button>
+</ion-footer>

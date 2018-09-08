@@ -1,0 +1,55 @@
+page-welcome {
+	.headBg .toolbar-background
+	{
+		background: #ce0b10;
+	}
+	.headTitle .toolbar-title
+	{
+		color:#fff;
+	}
+	.header-md::after
+	{
+		background: none;
+	}
+	.pageBodybg
+	{
+		background: #eeeaea91;
+	}
+	.row1bg
+	{
+		background: #ce0b10;
+	}
+	.welcome_col h3
+	{
+		margin: 25px 0 20px;
+	    font-size: 26px;
+	    font-weight: 100;
+	    color: #fff;
+	}
+	.welcome_col p
+	{
+		text-align: center;
+	    margin: 20px 60px;
+	    color: #fff;
+	}
+	.loginBtn
+	{
+		width: 80%;
+	    border-radius: 0;
+	    padding: 30px 0;
+	    text-transform: capitalize;
+	    font-size: 18px;
+	    font-weight: 400;
+	    background: #f3cc2c;
+	}
+	.createAcc{
+		color: #f3cc2c;
+	    text-transform: capitalize;
+	    font-weight: 500;
+	    height: 15px;
+	}
+	.creAcc_text
+	{
+		margin-top:20px;
+	}
+}

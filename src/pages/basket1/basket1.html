@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-navbar  class="headBg">
+      <ion-title class="headTitle">Basket</ion-title>
+      <img src="assets/imgs/login.png" float-right padding-right  (click)="openPage('LoginPage')">
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="basketPagebg">
+    <ion-grid no-padding class="basketPage">
+        <ion-row class="row1bg">
+          <ion-col col-3>
+              <ion-thumbnail item-start>
+                  <img src="assets/imgs/pizza1.jpg" class="thumbimg">
+                </ion-thumbnail>
+          </ion-col>
+          <ion-col col-9 text-right class="col-right">
+                <ion-label>Total</ion-label>
+                <h3>Rs. 1,134</h3>
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-grid class="gridpadding">
+          <ion-row>
+              <ion-col col-12 class="basRow1">Your Order</ion-col>
+              <ion-col col-8 class="basRow2">3 x Veggie Feast(Personal) </ion-col>
+              <ion-col col-4 text-right class="basRow3">Rs. 1,080</ion-col>
+            </ion-row>
+      </ion-grid>
+      <ion-list>
+        <ion-row class="cartRow">
+          <ion-item no-padding>
+            <ion-label col-6 padding-horizontal>Subtotal</ion-label>
+            <ion-label col-6 text-right padding-horizontal>Rs. 1,080</ion-label>
+          </ion-item>
+          <ion-item no-padding>
+              <ion-label col-6 padding-horizontal>Service fee(0%)</ion-label>
+              <ion-label col-6 text-right padding-horizontal>Rs. 0</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-label col-6 padding-horizontal>SGST(2.5%)</ion-label>
+                <ion-label col-6 text-right padding-horizontal>Rs. 27</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-label col-6 padding-horizontal>CGST(2.5%)</ion-label>
+                <ion-label col-6 text-right padding-horizontal>Rs. 27</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-label col-6 padding-horizontal>Delivery Fee</ion-label>
+                <ion-label col-6 text-right padding-horizontal>Rs. 0</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-label col-6 padding-horizontal>Total</ion-label>
+                <ion-label col-6 text-right padding-horizontal class="totalPrice">Rs. 1,134</ion-label>
+            </ion-item>
+            <ion-item class="newPadd">
+                <ion-input type="text" placeholder="Comments(Optional)"></ion-input>
+            </ion-item>
+        </ion-row>
+      </ion-list>
+</ion-content>
+<ion-footer>
+    <button ion-button full no-margin class="add_basket_btn" icon-end (click)="openPage('Basket2Page')">Choose Delivery Type</button> 
+     <!-- (click)="openPage('Basket2Page')" -->
+  </ion-footer>

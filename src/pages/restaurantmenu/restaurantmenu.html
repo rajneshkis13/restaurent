@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar  class="headBg">
+    <ion-title class="headTitle">Menu</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid no-padding class="menuPage">
+    <ion-row class="row1bg">
+      <ion-col col-3>
+          <ion-thumbnail item-start>
+							<img src="assets/imgs/pizza1.jpg" class="thumbimg">
+						</ion-thumbnail>
+      </ion-col>
+      <ion-col col-9 text-right>
+          <div class="rating-comments">
+              <ul>
+                <li><ion-icon ios="ios-star" md="md-star" style="color:#fdb600"></ion-icon></li>
+                <li><ion-icon ios="ios-star" md="md-star" style="color:#fdb600"></ion-icon></li>
+                <li><ion-icon ios="ios-star" md="md-star" style="color:#fdb600"></ion-icon></li>
+                <li><ion-icon ios="ios-star" md="md-star" style="color:#fdb600"></ion-icon></li>
+                <li><ion-icon ios="ios-star" md="md-star" style="color:#dbdbdb"></ion-icon></li>
+                <li><img src="assets/imgs/comments2.png"></li>
+                <li><span>55</span></li>
+              </ul>
+            </div>
+            <h2>Pizza Hut (Rajkot)</h2>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-list class="menuitems">
+      <ion-item (click)="openPage('FullmenuPage')">Veg Pizza</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Non-Veg Pizza</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Big Pizza</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Triple Treat Box</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Sides &amp; More</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Family Meals</ion-item>
+      <ion-item (click)="openPage('FullmenuPage')">Magic Pan</ion-item>
+  </ion-list>
+    
+</ion-content>

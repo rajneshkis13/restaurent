@@ -1,0 +1,94 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+.sidebar
+{
+	background: #363535;
+}
+.SideHead, .SideHead .toolbar
+{
+	height: 60px;
+}
+.SideHead .toolbar-background
+{
+	background: #ce0b10;
+	height: 60px;
+}
+.sideLogo{
+	display: block;
+	height: 100%;
+	// text-align: center;
+	margin: 0 30%;
+}
+.sidebar .scroll-content
+{
+	margin-top:60px;
+}
+.sidemenuItem ion-item:first-child
+{
+	border:0;
+}
+.sidemenuItem ion-item
+{
+	background: transparent;
+	/*border-bottom: 0.55px solid #c8c7cc8c;*/
+	border-top: 1px solid rgba(255, 255, 255, 0.20);
+	color:#fff;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size:18px;
+	line-height: 17px;
+	opacity: 0.5;
+}
+.sidemenuItem ion-item.item.item-block.item-md.active
+{
+	opacity: 1;
+	font-weight: 700;
+}
+.sidemenuItem ion-item .item-inner
+{
+	border:0 !important;
+
+}
+.sidemenuItem ion-list-header
+{
+	font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    background:transparent;
+    margin: 0;
+    border-top:0;
+}
+.sidemenuItem ion-item img
+{
+    height: 20px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+.back-button.show-back-button
+{
+	color:#fff !important;
+}
+.moreSidemenu
+{
+	margin-top: 30px !important;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	opacity: 0.5;
+	
+}

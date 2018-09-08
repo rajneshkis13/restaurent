@@ -1,0 +1,25 @@
+page-home {
+	.pageBg {
+	    background:#f5d7d8;	 //#cde6f3; /*url(../assets/imgs/bg.png)*/
+	    background-size: cover;
+	}
+	.homeTitle
+	{
+		display: block;
+		height: 100%;
+		text-align: center;
+	}
+	.homeTitle img
+	{
+		margin: 40% 0 0 0;
+    	height: 100px;
+	}
+	.toolbar-background-md
+	{
+		background: transparent;
+	}
+	.header-md::after
+	{
+		background: none;
+	}
+}

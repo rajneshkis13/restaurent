@@ -1,0 +1,69 @@
+page-restaurantmenu {
+    .headBg .toolbar-background
+	{
+		background: #ce0b10;
+	}
+	.headTitle
+	{
+		float: left;
+	}
+	.headTitle .toolbar-title
+	{
+		color:#fff;
+	}
+    .header-md::after
+	{
+		background: none;
+    }
+    .row1bg
+	{
+        background: #ce0b10;
+        padding:20px 15px;
+    }
+    .menuitems ion-item
+    {
+        border-bottom: 1px solid #ddd;
+    }
+    .menuitems ion-item .item-inner
+    {
+        border:0 !important;
+    }
+    .menuitems ion-item:nth-child(odd)
+    {
+        background: #fbf9f9;
+    }
+    .menuitems ion-item:nth-child(even)
+    {
+        background: #f7f7f7;
+    }
+    .menuPage .thumbimg
+    {
+        height: 50px; 
+        width:50px;      
+    }
+    .rating-comments ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0px 0 0 0;
+	}
+	.rating-comments ul li {
+	    display: inline;
+    }
+    .rating-comments ul li img
+	{
+		height: 15px;
+	    position: relative;
+	    top: 3px;
+    }
+    .rating-comments ul li span
+	{
+		color:#fff;
+	}
+    .menuPage h2{
+		font-size: 20px;
+        margin: 5px 0;
+        font-weight: 300;
+        line-height: 19px;
+        color: #fff;
+	}
+}

@@ -1,0 +1,114 @@
+page-basket1 {
+    .headBg .toolbar-background
+	{
+		background: #ce0b10;
+	}
+	.headTitle
+	{
+		float: left;
+	}
+	.headTitle .toolbar-title
+	{
+		color:#fff;
+    }
+    .header-md::after
+	{
+		background: none;
+    }
+    .basketPagebg
+    {
+        background:#fafaf9;
+    }
+    .row1bg
+	{
+        background: #ce0b10;
+        padding: 20px 15px;
+        border-bottom: 10px solid #f3cc2c;
+    }
+    .basketPage .thumbimg
+    {
+        height: 80px; 
+        width:80px;      
+    }
+    .basketPage ion-label{
+		font-size: 15px;
+        margin: 5px 0;
+        font-weight: 400;
+        line-height: 19px;
+        color: #fff;
+    }
+    .basketPage h3{
+		font-size: 18px;
+        margin: 5px 0;
+        font-weight: 600;
+        line-height: 19px;
+        color: #fff;
+        margin-bottom:0;
+    }
+    .col-right{
+        padding: 32px 0 0 0 !important;
+    }
+    .gridpadding
+    {
+        padding:0;
+        border-bottom: 1px solid #dedede;
+    }
+    .basRow1
+    {
+        padding: 16px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #3d3d3d;
+    }
+    .basRow2
+    {
+        padding: 20px 16px 70px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #3d3d3d;
+    }
+    .basRow3
+    {
+        padding: 16px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #3d3d3d;
+    }
+    .add_basket_btn{
+        height: 60px;
+	    font-size: 18px;
+	    text-transform: capitalize;
+	    background: #f3cc2c url(../assets/imgs/arrow-right.png);
+	    background-repeat: no-repeat;
+	    background-position: 95%;
+		font-weight: 500;
+        color: #fff;
+    }
+    .cartRow ion-item{
+        background:transparent;
+    }
+    .cartRow ion-item .item-inner{
+   border-bottom:1px solid #dededeb3
+    }
+    .totalPrice{
+        font-size:22px;
+    }
+    .newPadd{
+        padding:16px 16px 0;
+    }
+    .list-md .item-input:last-child ,  .list-md .item-input .item-input-has-focus:last-child
+    {
+        border-bottom:0 !important;
+    }
+    /*remove foucus color of textbox*/
+	.item-md.item-input.input-has-focus .item-inner {
+		border-bottom-color:#f3cc2c !important;
+		box-shadow: none !important;
+	  }
+	  
+	  .list-md .item-input.input-has-focus:last-child {
+        border-bottom-color: #f3cc2c !important;
+        border-left-color: transparent !important;
+		box-shadow: none !important;
+	  }
+}
